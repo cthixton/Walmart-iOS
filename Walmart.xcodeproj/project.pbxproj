@@ -83,8 +83,10 @@
 		20FC7FB5199D1C7800A70B08 /* LEANTabManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 20FC7FB4199D1C7800A70B08 /* LEANTabManager.m */; };
 		37011C962BC40AAE00775CA0 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 37011C952BC40AAE00775CA0 /* PrivacyInfo.xcprivacy */; };
 		374399B62C2229E300B2F92D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 374399B42C2229E300B2F92D /* InfoPlist.strings */; };
+		375F612C2F18119A00385AD8 /* LiquidTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 375F612B2F18119A00385AD8 /* LiquidTitleView.swift */; };
 		379E3D432A2147C4001C8A01 /* GNSwiftUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379E3D422A2147C4001C8A01 /* GNSwiftUtilities.swift */; };
 		3909A5A92C1C99E7001F68C3 /* MedianEventsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3909A5A82C1C99E7001F68C3 /* MedianEventsManager.m */; };
+		391C84AE2F2475D1006B25BA /* WebViewViewportManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 391C84AD2F2475D1006B25BA /* WebViewViewportManager.swift */; };
 		3946F0282BD0DE7100E74ED5 /* ContextMenuHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3946F0272BD0DE7100E74ED5 /* ContextMenuHandler.swift */; };
 		395C15702B75D19D00E2985D /* LEANWindowsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 395C156F2B75D19D00E2985D /* LEANWindowsManager.m */; };
 		396F42242A970DF9003FD87E /* UIApplication+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 396F42232A970DF9003FD87E /* UIApplication+Extensions.swift */; };
@@ -95,7 +97,7 @@
 		39D073812BBB12EA004FF636 /* LEANPDFManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 39D073802BBB12EA004FF636 /* LEANPDFManager.m */; };
 		39DE1B492935E67F0001E926 /* GNLogManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 39DE1B482935E67F0001E926 /* GNLogManager.m */; };
 		39DE1E4D2C82015900E96CFE /* LEANLoadingSpinnerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 39DE1E4C2C82015900E96CFE /* LEANLoadingSpinnerManager.m */; };
-		3E231DB20F4C2E5FF3196B7C /* Pods_Walmart.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 677D49F6F5492371FDB497F2 /* Pods_Walmart.framework */; };
+		8633FE24899C9D8F94853629 /* Pods_Walmart.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30A326A75AE901CA277503DD /* Pods_Walmart.framework */; };
 		93DA21EB31AE6F56B651894C /* Pods_MedianIOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B6D83597DFB31F85DB20AAC /* Pods_MedianIOSTests.framework */; };
 		BB3C460E26A9C1F9007D03DA /* GoNativeJSBridgeLibrary.js in Resources */ = {isa = PBXBuildFile; fileRef = BB3C460D26A9C1F9007D03DA /* GoNativeJSBridgeLibrary.js */; };
 		BB6E68A9273C731E004846A3 /* GNJSBridgeInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = BB6E68A8273C731E004846A3 /* GNJSBridgeInterface.m */; };
@@ -245,11 +247,15 @@
 		20F49C2619C7BE9100B46C5A /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
 		20FC7FB3199D1C7800A70B08 /* LEANTabManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LEANTabManager.h; sourceTree = "<group>"; };
 		20FC7FB4199D1C7800A70B08 /* LEANTabManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEANTabManager.m; sourceTree = "<group>"; };
+		28C8002B4D78030599227E38 /* Pods-Walmart.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Walmart.debug.xcconfig"; path = "Target Support Files/Pods-Walmart/Pods-Walmart.debug.xcconfig"; sourceTree = "<group>"; };
+		30A326A75AE901CA277503DD /* Pods_Walmart.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Walmart.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		37011C952BC40AAE00775CA0 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		374399B52C2229E300B2F92D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		375F612B2F18119A00385AD8 /* LiquidTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiquidTitleView.swift; sourceTree = "<group>"; };
 		379E3D422A2147C4001C8A01 /* GNSwiftUtilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GNSwiftUtilities.swift; sourceTree = "<group>"; };
 		3909A5A82C1C99E7001F68C3 /* MedianEventsManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MedianEventsManager.m; sourceTree = "<group>"; };
 		3909A5AA2C1C99EE001F68C3 /* MedianEventsManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MedianEventsManager.h; sourceTree = "<group>"; };
+		391C84AD2F2475D1006B25BA /* WebViewViewportManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewViewportManager.swift; sourceTree = "<group>"; };
 		3946F0272BD0DE7100E74ED5 /* ContextMenuHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextMenuHandler.swift; sourceTree = "<group>"; };
 		395C156F2B75D19D00E2985D /* LEANWindowsManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LEANWindowsManager.m; sourceTree = "<group>"; };
 		395C15712B75D1A900E2985D /* LEANWindowsManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LEANWindowsManager.h; sourceTree = "<group>"; };
@@ -269,11 +275,9 @@
 		39DE1E4B2C82014300E96CFE /* LEANLoadingSpinnerManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LEANLoadingSpinnerManager.h; sourceTree = "<group>"; };
 		39DE1E4C2C82015900E96CFE /* LEANLoadingSpinnerManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LEANLoadingSpinnerManager.m; sourceTree = "<group>"; };
 		4C74E9233A1532B38445C85A /* Pods-MedianIOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MedianIOSTests.debug.xcconfig"; path = "Target Support Files/Pods-MedianIOSTests/Pods-MedianIOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		536CB314BF81549B5C4415E8 /* Pods-Walmart.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Walmart.debug.xcconfig"; path = "Target Support Files/Pods-Walmart/Pods-Walmart.debug.xcconfig"; sourceTree = "<group>"; };
-		677D49F6F5492371FDB497F2 /* Pods_Walmart.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Walmart.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		74686CE5E5C79A441C3D2C20 /* Pods-Median.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Median.debug.xcconfig"; path = "Target Support Files/Pods-Median/Pods-Median.debug.xcconfig"; sourceTree = "<group>"; };
-		9055022854785C95FF931837 /* Pods-Walmart.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Walmart.release.xcconfig"; path = "Target Support Files/Pods-Walmart/Pods-Walmart.release.xcconfig"; sourceTree = "<group>"; };
 		A790DA6927FDBA77A0DE081F /* Pods-MedianIOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MedianIOSTests.release.xcconfig"; path = "Target Support Files/Pods-MedianIOSTests/Pods-MedianIOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		A97B1F92BC2B74ABECA183AE /* Pods-Walmart.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Walmart.release.xcconfig"; path = "Target Support Files/Pods-Walmart/Pods-Walmart.release.xcconfig"; sourceTree = "<group>"; };
 		BB182FAF2683478900DC8EAA /* LEANDlogDefinition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LEANDlogDefinition.h; sourceTree = "<group>"; };
 		BB3C460D26A9C1F9007D03DA /* GoNativeJSBridgeLibrary.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = GoNativeJSBridgeLibrary.js; sourceTree = "<group>"; };
 		BB6E68A7273C7308004846A3 /* GNJSBridgeInterface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GNJSBridgeInterface.h; sourceTree = "<group>"; };
@@ -306,7 +310,7 @@
 				2002B49E18A9991300495B3D /* CoreGraphics.framework in Frameworks */,
 				2002B4A018A9991300495B3D /* UIKit.framework in Frameworks */,
 				2002B49C18A9991300495B3D /* Foundation.framework in Frameworks */,
-				3E231DB20F4C2E5FF3196B7C /* Pods_Walmart.framework in Frameworks */,
+				8633FE24899C9D8F94853629 /* Pods_Walmart.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,7 +367,7 @@
 				2002B49D18A9991300495B3D /* CoreGraphics.framework */,
 				2002B49F18A9991300495B3D /* UIKit.framework */,
 				0B6D83597DFB31F85DB20AAC /* Pods_MedianIOSTests.framework */,
-				677D49F6F5492371FDB497F2 /* Pods_Walmart.framework */,
+				30A326A75AE901CA277503DD /* Pods_Walmart.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -371,6 +375,7 @@
 		2002B4A118A9991300495B3D /* LeanIOS */ = {
 			isa = PBXGroup;
 			children = (
+				375F612B2F18119A00385AD8 /* LiquidTitleView.swift */,
 				20B927A928C4EFE9004D4C15 /* custom-icons.ttf */,
 				203E19DC26DE45C3006F0E6C /* Project.entitlements */,
 				20C23645193E32EA00F6ADF0 /* Config */,
@@ -390,6 +395,7 @@
 				397F6C072AC147B000BD0474 /* LEANHeaders.h */,
 				3946F0272BD0DE7100E74ED5 /* ContextMenuHandler.swift */,
 				3972F5322D59C143009B5279 /* CustomMenu.swift */,
+				391C84AD2F2475D1006B25BA /* WebViewViewportManager.swift */,
 				3909A5AA2C1C99EE001F68C3 /* MedianEventsManager.h */,
 				3909A5A82C1C99E7001F68C3 /* MedianEventsManager.m */,
 				209A964123BABF2D001906F1 /* GNBackgroundAudio.h */,
@@ -557,8 +563,8 @@
 				F9BBED51E055455D5C4808AF /* Pods-Median.release.xcconfig */,
 				4C74E9233A1532B38445C85A /* Pods-MedianIOSTests.debug.xcconfig */,
 				A790DA6927FDBA77A0DE081F /* Pods-MedianIOSTests.release.xcconfig */,
-				536CB314BF81549B5C4415E8 /* Pods-Walmart.debug.xcconfig */,
-				9055022854785C95FF931837 /* Pods-Walmart.release.xcconfig */,
+				28C8002B4D78030599227E38 /* Pods-Walmart.debug.xcconfig */,
+				A97B1F92BC2B74ABECA183AE /* Pods-Walmart.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -846,6 +852,7 @@
 				20B6B55519AC4C2E004019C4 /* LEANDocumentSharer.m in Sources */,
 				20A7FF05197F6DDE006FDF44 /* LEANConfigUpdater.m in Sources */,
 				209A964323BABF2D001906F1 /* GNBackgroundAudio.m in Sources */,
+				375F612C2F18119A00385AD8 /* LiquidTitleView.swift in Sources */,
 				BB6E68A9273C731E004846A3 /* GNJSBridgeInterface.m in Sources */,
 				2002B4FB18A99C4100495B3D /* LEANRootViewController.m in Sources */,
 				2002B4E518A99A9900495B3D /* RECommonFunctions.m in Sources */,
@@ -857,6 +864,7 @@
 				39DE1B492935E67F0001E926 /* GNLogManager.m in Sources */,
 				20912D732380DB7600506807 /* GNFileWriterSharer.m in Sources */,
 				2092E238205C3E83005E8B71 /* GNConfigPreferences.m in Sources */,
+				391C84AE2F2475D1006B25BA /* WebViewViewportManager.swift in Sources */,
 				2002B4A818A9991300495B3D /* main.m in Sources */,
 				2002B4E718A99A9900495B3D /* REFrostedViewController.m in Sources */,
 				2018EE951907671A00EC4311 /* LEANUrlInspector.m in Sources */,
@@ -1056,7 +1064,7 @@
 		};
 		2002B4CE18A9991300495B3D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 536CB314BF81549B5C4415E8 /* Pods-Walmart.debug.xcconfig */;
+			baseConfigurationReference = 28C8002B4D78030599227E38 /* Pods-Walmart.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -1064,7 +1072,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 4;
+				CURRENT_PROJECT_VERSION = 5;
 				DEVELOPMENT_TEAM = ZHN2P52NGG;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1074,7 +1082,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LeanIOS/MedianIOS-Prefix.pch";
 				INFOPLIST_FILE = "LeanIOS/MedianIOS-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1100,7 +1108,7 @@
 		};
 		2002B4CF18A9991300495B3D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9055022854785C95FF931837 /* Pods-Walmart.release.xcconfig */;
+			baseConfigurationReference = A97B1F92BC2B74ABECA183AE /* Pods-Walmart.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -1108,7 +1116,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 4;
+				CURRENT_PROJECT_VERSION = 5;
 				DEVELOPMENT_TEAM = ZHN2P52NGG;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1118,7 +1126,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LeanIOS/MedianIOS-Prefix.pch";
 				INFOPLIST_FILE = "LeanIOS/MedianIOS-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
